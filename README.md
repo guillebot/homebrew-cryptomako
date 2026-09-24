@@ -29,9 +29,10 @@ brew uninstall --cask --zap cryptomako
 
 ## Official Homebrew (pending)
 
-A cask for CryptoMako has been prepared for **[Homebrew/homebrew-cask](https://github.com/Homebrew/homebrew-cask)** so users can eventually run `brew install --cask cryptomako` without this tap.
+Also submitted to **[Homebrew/homebrew-cask](https://github.com/Homebrew/homebrew-cask)** so users can eventually run `brew install --cask cryptomako` without this tap.
 
-**Status:** blocked on Homebrew’s [Package Acceptance Policy](https://docs.brew.sh/Package-Acceptance-Policy#notability) notability thresholds for a **self-submission** by the repository owner (need **≥90 forks, ≥90 watchers, or ≥225 stars**; plus the canonical repo must normally be **≥30 days** old). Current metrics and the official PR (if open) are tracked below once filed.
+- **PR:** https://github.com/Homebrew/homebrew-cask/pull/289678
+- **Status:** awaiting review. Homebrew’s [Package Acceptance Policy](https://docs.brew.sh/Package-Acceptance-Policy#notability) requires notability for new packages; a **self-submission** by the repository owner needs **≥90 forks, ≥90 watchers, or ≥225 stars**, and the repo is normally expected to be **≥30 days** old. Maintainers may close until those thresholds are met — the third-party tap remains the supported install path in the meantime.
 
 Until acceptance, keep using this tap. After merge, this README will point at the official cask and the tap may be deprecated.
 
