@@ -2,8 +2,7 @@ cask "cryptomako" do
   version "1.0.0"
   sha256 "99f866f9c5ab2f85cd8a524e18bc10e2fed8800d9da8f29d3e3586bb06d3b718"
 
-  url "https://github.com/guillebot/cryptomako/releases/download/v#{version}/CryptoMako-#{version}.dmg",
-      verified: "github.com/guillebot/cryptomako/"
+  url "https://github.com/guillebot/cryptomako/releases/download/v#{version}/CryptoMako-#{version}.dmg"
   name "CryptoMako"
   desc "Cryptomator format-8 vault over S3-compatible storage"
   homepage "https://github.com/guillebot/cryptomako"
