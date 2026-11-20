@@ -1,6 +1,6 @@
 cask "cryptomako" do
-  version "1.0.17"
-  sha256 "41fedafd4d7c60772b8f31141bdef08638ea4f265f14c2e0c344039ccd04d746"
+  version "1.0.18"
+  sha256 "87d9c6c6e463dbe851953048bc04ab0fcf4e53742a3a668ca85008454bb24c9e"
 
   url "https://github.com/guillebot/cryptomako/releases/download/v#{version}/CryptoMako-#{version}.dmg"
   name "CryptoMako"
